@@ -1,29 +1,29 @@
 # Supply Chain Visualizer
 
 ## Live Link
-[Live Application](https://your-live-app-link.com)
+[Live Application](https://react-supply-chain-app-demo2131.netlify.app/)
 
 ## GitHub Repository
-[Repository Link](https://github.com/your-username/supply-chain-visualizer)
+[Repository Link](https://github.com/338-dev/Supply-Chain-Visualizer)
 
 ## Framework and Plugins
 - **Framework**: React.js
 - **Plugins**:
   - `papaparse` for CSV parsing
   - `recharts` for data visualization
-  - `@mui/material` for styling and tables
+  - `@mui/material` for styling
+  - `@mui/x-data-grid` for data table
 
 ## Page Load Time
-The initial page load time is approximately X seconds (measured using browser dev tools).
+The initial page load time is approximately 1.76 seconds (measured using browser dev tools).
 
 ## Performance Optimizations
 - Lazy loading of components
 - Memoization techniques to avoid unnecessary re-renders
-- Efficient CSV parsing and data processing
 
 ## Challenges and Solutions
 ### Challenge 1: Efficient Data Handling
-**Solution**: Used `papaparse` to parse large CSV files efficiently and handle data asynchronously.
+**Solution**: Used `papaparse` to parse CSV files efficiently and handle data.
 
 ### Challenge 2: Interactive Chart and Table Integration
 **Solution**: Used `recharts` for creating interactive charts and `@mui/x-data-grid` for dynamic data tables, ensuring seamless user interaction.
