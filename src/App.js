@@ -10,7 +10,7 @@ function App() {
       <Typography variant="h3" component="h1" gutterBottom>
         Supply Chain Visualizer
       </Typography>
-      <Suspense fallback={<CircularProgress />}>
+      <Suspense fallback={<CircularProgress disableShrink/>}>
         <Products />
       </Suspense>
     </Container>
